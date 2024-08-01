@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'Maven 3.8.7'
+        maven 'Maven'
     }
     environment {
       TOMCAT_USER = "ec2-user"
