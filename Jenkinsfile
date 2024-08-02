@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', credentialsId: 'gittoken', url: 'https://github.com/AbhishekPatil30/HelloWorldapp.git'
+                git branch: 'main', credentialsId: 'gittoken', url: 'https://github.com/AbhishekPatil30/HelloWorldapp.git'
             }
         }
 
